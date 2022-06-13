@@ -1,0 +1,4 @@
+Chrome:    https://sites.google.com/a/chromium.org/chromedriver/downloads               https://sites.google.com/chromium.org/driver/
+Edge:      https://developer.microsoft.com/en-us/microsoft-edge/tools/webdriver/
+Firefox:   https://github.com/mozilla/geckodriver/releases
+Safari:    https://webkit.org/blog/6900/webdriver-suport-in-safari-10/
