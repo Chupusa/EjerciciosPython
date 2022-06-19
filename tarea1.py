@@ -60,9 +60,18 @@ d = {'y1':3,'y2':1,'y3':22}
 
 for llave,valor in d.values():
     print(valor)
-'''
+
 dia = 0
 semana = ['Lunes','Martes','Miercoles','Jueves','Viernes','Sabado','Domingo']
 while dia < 7:
     print("Hoy es " + semana[dia])
     dia += 1
+
+'''
+x = "Eric"
+
+for letter in x:
+    if letter == 'i':
+        continue
+print(letter)
+

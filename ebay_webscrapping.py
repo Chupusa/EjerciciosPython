@@ -1,3 +1,4 @@
+# Librerias que importa para Trabajar
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.common.exceptions import WebDriverException
@@ -8,6 +9,7 @@ import time
 ubicacion = "C:/INSERTE_RUTA/chromedriver" #Ruta del driver
 driver = webdriver.Chrome(ubicacion)
 
+# Pagina y lo que se va Buscar
 home_link = "https://www.ebay.com/"
 search_kw = "iphone x".replace(" ","+")
 
@@ -81,4 +83,5 @@ phone_list = pd.DataFrame({
 
 phone_list = phone_list.sort_values(by=['PRICE','SCORE','REVIEWS_AMT'], ascending=[True,False,False])
 
+# Crea la Lista de Telefonos
 phone_list.to_csv(r'C:/INSERTE_RUTA/lista_telefonos_prueba.csv', index=None, header=True, encoding='utf-8-sig')
